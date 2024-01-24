@@ -1,0 +1,66 @@
+.TodoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* color: #FBF8BE; */
+  background-color: #43766C ;
+}
+.HeadingTitle{
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  padding: 5px 0;
+  border-bottom: 2px solid #000;
+  color: #000;
+}
+.TodoContainer .InputContainer{
+  background-color: #F8FAE5;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+.TodoContainer .InputContainer .InputBox{
+  padding: 4px 8px;
+  border-radius: 5px;
+  color: black;
+  margin-right: 10px;
+  height: 40px;
+  max-width: 210px;
+  background: #eeeeeed5;
+}
+
+.Heading{
+  padding-bottom: 20px;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  color: #76453B;
+}
+
+.TodoContainer .InputContainer .AddTask{
+  border: 2px solid #B19470;
+  padding: 6px 8px;
+  border-radius: 5px;
+  background-color: #B19470;
+  color: #fff;
+  width: 100px;
+  font-weight: 500;
+  max-height: 40px;
+}
+.TodoContainer .InputContainer .AddTask:hover{
+  background-color: #76453B;
+  border: 2px solid #76453B;
+}
+.ListItem{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 10px;
+  border-bottom: 1px solid #000;
+ font-size: 20px;
+ font-weight: 600;
+}
+.Icon:hover{
+  color: #eeeeeed6;
+  cursor: pointer;
+}
